@@ -1,0 +1,125 @@
+body{
+    background-image: linear-gradient(to right,rgb(237,200,146),rgb(216,153,220));
+}
+
+.container{
+    background-color: white;
+    height:80vh;
+    width: 180vh;
+    margin: auto;
+    outline: none;
+    border-radius: 20px;
+    margin-top: 65px;
+}
+
+.image-display{
+    background-color: rgb(240, 208, 139);
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    float: left;
+}
+
+.image-display p{
+    color: rgb(157,121,41);
+    font-size: 40px;
+    text-align: center;
+    padding: 50% 10%;
+}
+
+.contentDisplay{
+    float: right;
+    width: 70%;
+}
+
+.signin-text{
+    text-align: right;
+    padding-top: 1px;
+}
+
+.signin-text p{
+    padding: 2px;
+    color: chocolate;
+}
+
+.inputForm{
+    margin-top: 30px;
+    padding: 50px;
+    /*padding-right: 40px;*/
+    margin-top: 100px;
+    text-align: center;
+}
+
+button{
+    background-color: rgb(234,76,136);
+    display: block;
+    width:200px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color:white;
+    margin: auto;
+    text-align: center;
+    line-height:0;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.inputForm input[type='text']{
+    display: inline;
+}
+
+.inputForm input[type='email'] {
+    display: inline;
+    margin: auto;
+    width: 55%;
+}
+
+.inputForm input[type='password']{
+    width: 55%;
+}
+
+.label-email{
+    display: inline;
+    margin-right: 15px;
+}
+
+input{
+    margin: 20px 20px;
+    background-color: rgb(244,246,248);
+    outline: none;
+    border: 1px solid azure;
+    padding: 10px;
+} 
+
+h2{
+    text-align: center;
+    display: block;
+    padding: 50px;
+    color: chocolate;
+}
+
+.endContainer p{
+    margin: auto;
+    text-align: center;
+    color: chocolate;
+    font-size: large;
+}
+
+.a-links:link{
+    color: chocolate;
+}
+
+
+.a-links:visited{
+    color: chocolate;
+}
+
+.a-links:hover{
+    color: black;
+}
+
+.signin-username{
+    width: 55%;
+}
